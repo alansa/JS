@@ -1,0 +1,78 @@
+CURSO DE JAVASCRIPT
+
+El código de JavaScript irá dentro del cuerpo de una página HTML, podrá ir en el HEAD o en cualquier otra parte del HTML
+o bien en un archivo externo con extensión .js
+
+Toda sentencia de JavaScript termina con un ";"
+
+ALERT o Advertencia
+alert ("mensaje"); <---- Muestra una ventana Modal (Es decir que no permite manipular ninguna parte de la pag y no se
+							minimiza)
+			 Detiene el flujo de ejecución  (Hasta presionar el ACEPTAR continuará el flujo)
+
+DOCUMENT.WRITE
+
+document.write("texto"); <---Texto a introducir en la pagina html pero con JavaScript
+
+
+Tambien podermos incluir un archivo.js y agregarlo a nuestra pagina HTML de la sig. manera:
+
+<script src="rutadelarchivo.js"></script>
+
+Ejecutará lo que se encuentre en este archivo tantas veces como lo llamemos en el HTML
+
+JQUERY
+
+Para el uso de JQuery necesitamos agregar la ruta del archivo 
+
+
+<script src="rutadelarchivoJQuery"></script>
+
+y así podremos usar cualquier funcionalidad de este archivo en nuestra página
+
+******************************************
+		ESTRUCTURAS BÁSICAS		
+SENTENCIAS
+
+Todas las sentencias terminan en ";"
+
+FUNCIONES PREDEFINIDAS
+Siempre tendrán "()"
+Son funciones que viene ya con el lenguaje
+Ejemplo
+alert();
+doucument.write();
+isNan();
+
+Se pueden crear nuestras propias funciones.
+
+TIPOS DE DATOS
+
+Tres tipos básicos
+- Números (Da igual que sean decimales o enteros)
+- Strings (Texto siempre entrecomillado)
+- Booleans 
+
+VARIABLES
+
+-Sintaxis
+		var nombre;
+		var nombre1, nombre2, nombre3;
+
+- Reglas para el nombre de Variable
+ * comenzar con letra o simbolo $ o _
+ * Contener solo letras, numeros, $ y _
+ * Son case sensitive (Sensible a mayusculas)
+ * No palabras reservadas
+ * Deben ser descriptivos 
+
+- Iniciar variables 
+	nombre = valor; 
+
+	o desde la declaración
+
+	var nombre = valor;
+	
+	varias varibles inicializadas
+
+	var nombre1=valor1, nombre2=valor2, nombre3=valor3;
