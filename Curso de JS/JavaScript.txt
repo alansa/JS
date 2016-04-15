@@ -76,3 +76,79 @@ VARIABLES
 	varias varibles inicializadas
 
 	var nombre1=valor1, nombre2=valor2, nombre3=valor3;
+
+CONCATENACION	
+
+Para concatenar se usa "+"
+
+STRING A NUMERO
+Number(String);
+
+FUNCIONES DE ENTRADA DE DATOS
+
+PROMPT: Se dice que es una función de entrada porque permite introducir
+	datos que estan fuera del programa hacia dentro del programa y 
+	almacenarse en una variable
+
+prompt("texto que verá el usuario");
+
+FUNCIONES DE SALIDA DE DATOS
+
+ALERT: La información es capaz de salir de una variable dentro del programa
+	hacia afuera
+
+
+OPERADORES DE INCREMENTO Y DECREMENTO
+
+
+ARRAYS O ARREGLOS O MATRICES
+
+Las variables guardadas en un array en javascript no tienen que ser forzosamente 
+del mismo tipo.
+
+Hay dos formas de declarar un array en JavaScript
+
+var nombreArray = ["valor1", "valor2", "valorN"];
+
+var nombreArray = new Array ("valor1", "valor2", "valorN");
+
+var nombreArray = [];
+
+COMO ACCEDER A LOS VALORES DE UN ARRAY
+
+-Acceder a los indices de un Array
+
+	alert (nombreArrray[indice]);
+
+PROPIEDADES Y MÉTODOS DEL ARRAY IMPORTANTES
+
+-Propiedad length: Longitud y número de elementos que tiene un Array
+
+	nombreArray.length;
+
+Se puede usar para obtener el último valor del Array si se desconoce el 
+número de variables guardadas
+
+	nombreArray(nombreArray.length]);
+
+-Método push : Agrega un nuevo elemento al final del Array
+ 	
+	nombreArray.push("valor a agregar");
+
+	nombreArray.push("valor1 a agregar" , "valor2 a agregar","valorN a agregar");
+
+-Método unshift : Agrega un nuevo elemento al inicio del Array
+
+	nombreArray.unshift("valor a agregar");
+
+	nombreArray.unshift("valor1 a agregar" , "valor2 a agregar","valorN a agregar");
+
+-Método pop: Elimina un elemento al final del Array
+
+	nombreArray.pop();
+
+-Método shift: Elimina un elemento al inicio del Array
+
+	nombreArray.shift();
+
+
