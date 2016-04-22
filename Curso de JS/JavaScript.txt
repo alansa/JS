@@ -152,3 +152,35 @@ número de variables guardadas
 	nombreArray.shift();
 
 
+PROGRAMACIÓN ORIENTADA A OBJETOS JS
+
+ATRIBUTOS Y METODOS
+
+NOMENCLATURA DEL PUNTO
+
+Consiste en:
+
+nombre del objeto  " . " despues su propiedad igual al valor;
+
+Ejemplo Modificar el color y el ancho de un coche
+
+renault.color="azul";
+renault.ancho="2000";
+
+Para que un objeto realice un metodo será asi
+
+nombre del objeto " . " despues el metodo "()" ;
+
+Ejemplo si queremos que el coche acelere y frene
+
+renault.acelerar();
+renault.frenar();
+
+BOTONES EN JS
+
+Modificar ancho de un boton, el color y entrar a un método del boton
+
+boton.style.width="800px"
+boton.style.backgroundColor = "red";
+boton.focus();
+
